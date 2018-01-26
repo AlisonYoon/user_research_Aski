@@ -1,0 +1,259 @@
+/*!
+ * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+body {
+  font-family: 'Open Sans', serif;
+  padding-top: 54px;
+  color: #868e96; }
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem; } }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40; }
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem; }
+
+h2 {
+  font-size: 3.5rem; }
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 1.35rem; }
+
+.list-social-icons a {
+  color: #495057; }
+  .list-social-icons a:hover {
+    color: #BD5D38; }
+  .list-social-icons a .fa-lg {
+    font-size: 1.75rem; }
+
+.list-icons {
+  font-size: 3rem; }
+  .list-icons .list-inline-item i:hover {
+    color: #BD5D38; }
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+  text-transform: uppercase; }
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh; }
+    #sideNav .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem; }
+      #sideNav .navbar-brand .img-profile {
+        max-width: 10rem;
+        max-height: 10rem;
+        border: 0.5rem solid rgba(255, 255, 255, 0.2); }
+    #sideNav .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto; }
+      #sideNav .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        width: 100%; }
+        #sideNav .navbar-collapse .navbar-nav .nav-item {
+          display: block; }
+          #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+            display: block; } }
+
+section.resume-section {
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important; }
+  section.resume-section .resume-item .resume-date {
+    min-width: none; }
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh; }
+    section.resume-section .resume-item .resume-date {
+      min-width: 18rem; } }
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important; } }
+
+.bg-primary {
+  background-color: #BD5D38 !important; }
+
+.text-primary {
+  color: #BD5D38 !important; }
+
+a {
+  color: #BD5D38; }
+  a:hover, a:focus, a:active {
+    color: #824027; }
+
+
+
+    /*  */
+    /* Schedule date and time */
+    /*  */
+    @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.CustomDatePicker {
+  width: 280px;
+  border: 1px solid #d6d6d6;
+  border-radius: 5px;
+  padding: 5px 0 20px 0;
+}
+.CustomDatePicker .dateArrow {
+  position: absolute;
+}
+.CustomDatePicker .monthSlider {
+  position: relative;
+  height: 30px;
+}
+.CustomDatePicker .monthSlider .monthTitle {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 0;
+}
+.CustomDatePicker .monthSlider .dateArrow {
+  position: absolute;
+  color: #000000;
+}
+.CustomDatePicker .monthSlider .monthLeftArrow {
+  top: 0;
+  left: 5px;
+}
+.CustomDatePicker .monthSlider .monthRightArrow {
+  top: 0;
+  right: 5px;
+}
+.CustomDatePicker .daySlider {
+  position: relative;
+  min-height: 60px;
+}
+.CustomDatePicker .daySlider .dayItem {
+  cursor: pointer;
+  padding: 10px 0;
+  width: 20%;
+  float: left;
+  position: relative;
+  text-align: center;
+  -webkit-box-shadow: inset 0px 0px 1px 0px rgba(50, 50, 50, 0.53);
+  -moz-box-shadow: inset 0px 0px 1px 0px rgba(50, 50, 50, 0.53);
+  box-shadow: inset 0px 0px 1px 0px rgba(50, 50, 50, 0.53);
+}
+.CustomDatePicker .daySlider .dayItem.selected {
+  background: #404148;
+  color: #FFFFFF;
+}
+.CustomDatePicker .daySlider .dayItem.selected:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 7px 6px 0;
+  border-color: #404148 transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  margin-left: -6px;
+  bottom: -7px;
+  left: 50%;
+}
+.CustomDatePicker .daySlider .dayItem:hover {
+  background: #212227;
+  color: #FFFFFF;
+}
+.CustomDatePicker .daySlider .dayItem .dayNumber {
+  font-size: 22px;
+}
+.CustomDatePicker .daySlider .dayItem .dayTitle {
+  font-size: 10px;
+}
+.CustomDatePicker .daySlider .dateArrow {
+  cursor: pointer;
+  height: 61px;
+  line-height: 60px;
+  text-align: center;
+  width: 15px;
+  background: #71c9df;
+  color: #FFF;
+}
+.CustomDatePicker .daySlider .dayLeftArrow {
+  left: 0;
+  top: 0;
+}
+.CustomDatePicker .daySlider .dayRightArrow {
+  right: 0;
+  top: 0;
+}
+.CustomDatePicker .yearSlider {
+  text-align: center;
+  position: relative;
+}
+.CustomDatePicker .yearSlider .yearNumber {
+  font-size: 72px;
+  font-weight: 300;
+}
+.CustomDatePicker .yearSlider .dateArrow {
+  width: 25px;
+  height: 25px;
+  border: 1px solid  #d4d4d4;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 25px;
+  cursor: pointer;
+}
+.CustomDatePicker .yearSlider .dateArrow:hover {
+  background: #71c9df;
+  color: #FFFFFF;
+  border-color: #57b1c8;
+}
+.CustomDatePicker .yearSlider .yearLeftArrow {
+  left: 5%;
+  top: 45%;
+}
+.CustomDatePicker .yearSlider .yearRightArrow {
+  right: 5%;
+  top: 45%;
+}
+.CustomDatePicker .btn-save-date {
+  font-weight: 700;
+  border: 1px solid #000000;
+  width: 45%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.CustomDatePicker .btn-save-date:hover {
+  border-color: #71c9df;
+  color: #71c9df;
+}
